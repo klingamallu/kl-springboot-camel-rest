@@ -89,9 +89,7 @@ public class SampleCamelApplicationTest {
 	   
 	   ObjectMapper mapper = new ObjectMapper();
 	   assertEquals(mapper.readTree(transformedMessage), mapper.readTree(sampleOutputResponse));
-	   System.out.println(transformedMessage);
-	   //assertXMLEquals(transformedMessage, sampleOutputResponse);
-	   //resultEndpoint.assertIsSatisfied();		
+		
 	    	   
 	}
 	
