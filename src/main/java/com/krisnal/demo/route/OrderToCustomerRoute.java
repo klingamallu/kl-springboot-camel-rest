@@ -73,7 +73,7 @@ public class OrderToCustomerRoute extends RouteBuilder{
 				resp.setStatus(503);
 				resp.setMessage("Service error  occured");				
 			}
-			exchange.getIn().setHeader(Exchange.HTTP_RESPONSE_CODE, 400);
+			exchange.getIn().setHeader(Exchange.HTTP_RESPONSE_CODE, resp.getStatus());
 			return resp;
 	}
 }
