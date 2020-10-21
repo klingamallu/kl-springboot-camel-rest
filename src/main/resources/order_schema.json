@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "orderId": {
+      "type": "integer"
+    },
+    "orderAmount": {
+      "type": "number"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "customerId": {
+      "type": "integer"
+    },
+    "totalitems": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "orderId",
+    "orderAmount",
+    "currency",
+    "customerId",
+    "totalItems"
+  ]
+}

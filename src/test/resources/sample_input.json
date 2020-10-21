@@ -1,0 +1,7 @@
+{
+ "orderId": 111,
+ "orderAmount": 50.50,
+ "currency": "GBP",
+ "customerId": 1,
+ "totalItems": 5 
+}

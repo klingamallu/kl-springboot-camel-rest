@@ -1,0 +1,7 @@
+<customerDetails>
+	<customerID>111</customerID>
+	<customerName>TestCustomer</customerName>
+	<address>123 Line1, City, State</address>
+	<orderNo>111</orderNo>
+	<orderAmount>50.5</orderAmount>
+</customerDetails>
